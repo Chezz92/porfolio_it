@@ -2,26 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylessheet" href="assets/css7style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylessheet" href="assets/css7style.css"/>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Jessica Martin</title>
+
+    <title>Jessica Martin | Data Science </title>
 
 </head>
 
 <body>
-    <!-- Barra de Navegación -->
+    <nav>
+        <h1>Jessica E. Martin</h1>
+        <ul class="navegacion">
+          <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+          <li><a href="#habilidaes" class="nav-link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
 
-    <!-- Sección Hero  -->
+  <section class="hero" id="about">
+    <img src="assets/images/wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img"/>
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-titulo">Sobre Mí</h2>
+      <p class="bio-texto">
+        Soy Jessica Martin, una apasionada de la tecnología y la educación. Después de años ejerciendo la docencia, decidí recorrer distintas áreas del desarrollo para tener una visión más amplia del campo. Hoy en día, con mi combinación única de habilidades técnicas y pedagógicas, creo que puedo aportar mucho a cualquier equipo de tecnología y educación. Si buscas a alguien que pueda crear contenidos educativos efectivos y utilizar la tecnología para analizar y visualizar datos de manera efectiva, estoy lista para ayudar.
+      </p>
+    </div>
+</section>
+<section class="mas-sobre">
+    <h2>Más sobre mí</h2>
+    <p>
+        Desde mi adolescencia, he estado interesada en la tecnología como herramienta, lo que me llevó a adquirir habilidades en la transposición, el story telling, la investigación y la creación de contenidos para adaptarlos al público objetivo. Con un background docente en ciencias exactas, he ganado skills en la creación de contenidos educativos que sean efectivos para los estudiantes.
+    </p>
+    <p>
+        Tras ejercer la docencia por 8 años, decidí explorar diferentes áreas del desarrollo para tener una comprensión más completa del campo.Empecé por el desarrollo web frontend utilizando HTML, CSS y JS, pero más tarde me acerqué a mi interés específico en tecnología de análisis de datos. 
+    </p>
+    <p>
+        Aprendí fundamentos de RStudio, MySQL, Tableau y Python, entre otras herramientas que me permitieron obtener una visión más holística del campo de la tecnología.
+    </p>
+  </section>
+  <section class="habilidades" id="habilidades">
+    <h2 class="header-habilidadr">Mis mejores habilidades</h2>
 
-    <!-- Sobre Mí -->
+    <div class="contenedor-habilidades">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card"/>
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card"/>
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"/>
+      </div>
 
-    <!-- Sección Habilidades -->
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card"/>
+        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card"/>
+        <img
+          src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card"/>
+      </div>
+    </div>
+  </section>
 
-    <!-- Sección Proyectos -->
+  <section class="proyectos" id="proyectos">
+    <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
+    <div class="contenedor-de-proyectos">
+      <div class="contenedor-de-proyectos tarjeta-de-proyectos">
+        <img
+          src="assets/images/expenseTracker.png"
+          alt="rastreador-de-gastos"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="titulo-de-proyectos">Rastreador de Gastos</h3>
+        <p class="detalle-de-proyectos">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="enlace-de-proyecto">Check it Out</a>
+      </div>
+      <div class="contenedor-de-proyectos tarjeta-de-proyectos ">
+        <img
+          src="assets/images/netflixClone.png"
+          alt="netflic-clone"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="titulo-proyecto">Calculadora</h3>
+        <p class="detalles-proyecto">
+          Proyecto individual donde integre HTML, CSS Y JS.
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+        <img
+          src="assets/images/greenyEarth.png"
+          alt="greeny-earth"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="titulo-de-proyecto">Vivir Viajando Blog</h3>
+        <p class="detalles-de-proyecto">
+          Proyecto desarrollado dentro de una capacitacion Full Satck Python en Codo a Codo del Gobierno de la Ciudad de Buenos AAires. En el mismo se integraronlos conocimientos adquiridos de HTML, CSS y JS.
+        </p>
+        <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+      </div>
+    </div>
+  </section>
 
     <!-- Sección Contacto-->
 
@@ -35,20 +126,7 @@
     <script src="assets/js/app.js"></script>
 
     <!-- Ion icons scripts -->
-    <script
-      type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <nav>
-        <h1>Jessica Elizabeth Martin</h1>
-        <ul class="navegacion">
-          <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
-          <li><a href="#habilidaes" class="nav-link">Habilidades</a></li>
-          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
-          <li><a href="#contacto" class="nav-link">Contacto</a></li>
-        </ul>
-        <button class="menu-hamburguesa" id="menu-hamburguesa"><ion-icon class="barras" name="menu-outline"></ion-icon>
-        </button>
-  </nav>
+    
 
   </body>
 </html>
