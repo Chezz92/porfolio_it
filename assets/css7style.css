@@ -215,16 +215,16 @@ nav ul li {
   margin: 10px;
 }
 
-.contact {
+.contacto {
   margin-top: 2rem;
 }
 
-.contact h2 {
+.contacto h2 {
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
 }
 
-.contact-form-container {
+.contenedor-formulario-contacto {
   max-width: 40.75rem;
   margin: 0 auto;
   padding: 0.938rem;
@@ -232,18 +232,18 @@ nav ul li {
   box-shadow: 0 3px 10px var(--secondary-shadow);
 }
 
-.contact-form-container label {
+.contenedor-formulario-contacto label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
   color: var(--primary-color);
 }
 
-.contact-form-container textarea {
+.contenedor-formulario-contacto textarea {
   min-height: 6.25rem;
   font-size: 14px;
 }
 
-.contact-form-container .input-field {
+.contenedor-formulario-contacto .input-field {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -277,7 +277,7 @@ nav ul li {
   cursor: pointer;
 }
 
-.socials {
+.sociales {
   display: flex;
   flex-direction: column;
   position: fixed;
