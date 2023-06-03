@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylessheet" href="assets/css/css7style.css"/>
+    <link rel="stylesheet" href="assets/css/css7style.css"/>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -15,28 +15,30 @@
 
 <body>
     <nav>
-        <h1>Jessica E. Martin</h1>
-        <ul class="navegacion">
-          <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
-          <li><a href="#habilidaes" class="nav-link">Habilidades</a></li>
-          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
-          <li><a href="#contacto" class="nav-link">Contacto</a></li>
-        </ul>
-        <button class="menu-hamburguesa" id="menu-hamburguesa">
-          <ion-icon class="barras" name="menu-outline"></ion-icon>
-        </button>
+      <h1>Jessica E. Martin</h1>
+      <ul class="navegation">
+        <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="menu-hamburguesa" id="menu-hamburguesa">
+        <ion-icon class="barras" name="menu-outline"></ion-icon>
+      </button>
     </nav>
+
+    <p> 0024 </p>
 
     <section class="hero" id="about">
       <img src="assets/images/wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img"/>
       <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-titulo">Sobre Mí</h2>
-        <p class="bio-texto">
+        <h2 class="bio-title">Sobre Mí</h2>
+        <p class="bio-text">
           Soy Jessica Martin, una apasionada de la tecnología y la educación. Después de años ejerciendo la docencia, decidí recorrer distintas áreas del desarrollo para tener una visión más amplia del campo. Hoy en día, con mi combinación única de habilidades técnicas y pedagógicas, creo que puedo aportar mucho a cualquier equipo de tecnología y educación. Si buscas a alguien que pueda crear contenidos educativos efectivos y utilizar la tecnología para analizar y visualizar datos de manera efectiva, estoy lista para ayudar.
         </p>
       </div>
     </section>
-    <section class="mas-sobre">
+    <section class="more-about">
         <h2>Más sobre mí</h2>
         <p>
           Desde mi adolescencia, he estado interesada en la tecnología como herramienta, lo que me llevó a adquirir habilidades en la transposición, el story telling, la investigación y la creación de contenidos para adaptarlos al público objetivo. Con un background docente en ciencias exactas, he ganado skills en la creación de contenidos educativos que sean efectivos para los estudiantes.
@@ -48,103 +50,182 @@
           Aprendí fundamentos de RStudio, MySQL, Tableau y Python, entre otras herramientas que me permitieron obtener una visión más holística del campo de la tecnología.
         </p>
     </section>
-    <section class="habilidades" id="habilidades">
-      <h2 class="header-habilidadr">Mis mejores habilidades</h2>
 
-      <div class="contenedor-habilidades">
-      <div class="first-set animate__animated animate__pulse">
-        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card"/>
-        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card"/>
-        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"/>
-      </div>
+    <section class="skills" id="skills">
+      <h2 class="skills-header">Mis mejores habilidades</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"/>
+        </div>
 
-      <div class="second-set animate__animated animate__pulse">
-        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card"/>
-        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card"/>
-        <img
-          src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card"/>
-      </div>
+        <div class="second-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card"/>
+        </div>
       </div>
     </section>
 
-    <section class="proyectos" id="proyectos">
-      <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
-      <div class="contenedor-de-proyectos">
-        <div class="contenedor-de-proyectos tarjeta-de-proyectos">
-          <img src="assets/images/expenseTracker.png" alt="rastreador-de-gastos" loading="lazy" class="project-pic"/>
-            <h3 class="titulo-de-proyectos">Rastreador de Gastos</h3>
-            <p class="detalle-de-proyectos">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="#" target="_blank" class="enlace-de-proyecto">Check it Out</a>
-        </div>
-        <div class="contenedor-de-proyectos tarjeta-de-proyectos ">
+    <section class="projects" id="projects">
+      <h2 class="projects-tittle">Algunos de mis proyectos</h2>
+        <div class="projects-container">
+        <div class="project-container project-card">
           <img src="assets/images/netflixClone.png" alt="netflic-clone" loading="lazy" class="project-pic"/>
-          <h3 class="titulo-proyecto">Calculadora</h3>
-          <p class="detalles-proyecto">
+          <h3 class="project-tittle">Calculadora</h3>
+          <p class="project-details">
             Proyecto individual donde integre HTML, CSS Y JS.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="#" target="_blank" class="project-link">Descubre más</a>
         </div>
-        <div class="contenedor-de-proyecto tarjeta-de-proyecto">
-          <img src="assets/images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic"/>
-          <h3 class="titulo-de-proyecto">Vivir Viajando Blog</h3>
-          <p class="detalles-de-proyecto">
+
+        <div class="project-container project-card">
+          <img src="assets/images/vivir_viajando_blog.PNG" alt="greeny-earth" loading="lazy" class="project-pic"/>
+          <h3 class="project-tittle">Vivir Viajando Blog</h3>
+          <p class="project-details">
             Proyecto desarrollado dentro de una capacitacion Full Satck Python en Codo a Codo del Gobierno de la Ciudad de Buenos AAires. En el mismo se integraronlos conocimientos adquiridos de HTML, CSS y JS.
           </p>
-          <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          <a href="#" target="_blank" class="project-link">Descubre más</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Analisis de bases de datos de emision de CO2 a nivel global y su relación con la PBI per capita del pais los ultimos 10 años. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Descubre más</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Twitter-logo.jpg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Polaridad tweets</h3>
+          <p class="project-details">
+            Trabaje con un conjunto de datos de reseñas de productos o tweets y crea un modelo de clasificación de texto para predecir la polaridad (positiva o negativa) de las reseñas o el sentimiento de los tweets. Donde utilice técnicas de procesamiento de lenguaje natural y algoritmos como Naive Bayes, SVM o redes neuronales recurrentes. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Descubre más</a>
         </div>
       </div>
     </section>
 
-    <section class="contacto" id="contacto">
+    <section class="contact" id="contact">
       <h2>Contacto</h2>
-      <div class="formulario-contacto-contenedor">
-        <div class="formulario-contacto">
-          <form action= "https://formspree.io/f/xzbqyqkb" method="POST">
-            <div class="control-formulario">
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
               <label for="name">Nombre</label>
-              <input type="text" id="name" name="sender-name" placeholder="Escribe tu nombre" class="input-field" required/>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Ingrese su nombre"
+                class="input-field"
+                required
+              />
             </div>
-            <div class="control-formulario">
-              <label for="email">Correo Electrónico</label>
-              <input type="email" id="email" name="sender-email" placeholder="Ingreso tu correo electrónico" class="input-field" required/>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingres su correo"
+                class="input-field"
+                required
+              />
             </div>
-            <div class="control-formulario">
-              <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje" name="mensaje" class="input-field" required></textarea>
+            <div class="form-control">
+              <label for="message">Mensaje</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Ingrese su mensaje"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
             </div>
-              <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
-            </form>
-          </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
         </div>
-      </section>
+      </div>
+    </section>
 
-    <div class="sociales">
-      <a href="#" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon"/></a>
-      <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon"/></a>
-      <a href="#" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon"/></a>
-      <a href="#" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"/></a>
+    <div class="socials">
+      <a href="https://twitter.com/chezzmart" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/chezz_analityc/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/jessica-elizabeth-martin/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Chezz92" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
     </div>
+
+    <!-- Scroll to top -->
     <i class="scroll-up" id="scroll-up"
-    ><img
-      src="assets/icons/icons8-upward-arrow.gif"
-      class="socicon up-arrow"
-      alt=""
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
     /></i>
-  
+
+    <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">&copy; The beauty of data: where information comes art"</p>
       <p class="copy">
-        Built with &#x2661; by
-        <a href="https://twitter.com/koladechris" target="_blank">Kolade Chris (Ksound)</a>
+        By &#128013;
+        <a href="https://www.linkedin.com/in/jessica-elizabeth-martin/" target="_blank"
+          >Jessica Martin</a
+        >
       </p>
     </footer>
-    
+
+    <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
-      type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
-    </script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
-    </script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
