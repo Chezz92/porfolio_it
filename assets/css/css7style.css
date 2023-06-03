@@ -104,6 +104,13 @@ nav ul li {
 .hero img {
   height: 37.5rem;
   width: 37.5rem;
+  border-radius: 80px 20px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+  filter: opacity(90%);
+
 }
 
 .bio {
@@ -415,7 +422,7 @@ footer {
     width: 17.875rem;
   }
 
-  .contact-form-container {
+  .c {
     max-width: 17.75rem;
   }
 }
